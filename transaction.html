@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Transfer</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+body{
+background-color:skyblue;}
+.container{
+padding-top:7%;
+padding-left:17%;
+}
+div.jumbotron{
+width:80%;
+height:95%;
+text-align:center;
+}
+.btn-primary{
+font-size:20px;
+border-radius:30px;
+}
+input{
+width:100%;
+height:80%;
+font-size:20px;
+}
+input:hover{
+color:blue;
+}
+</style>
+</head>
+<body>
+<div class="container">
+     <div class="jumbotron">
+     <form name="f1" method="post" action="./TransactionServlet" id="form1">
+          <button class="btn-primary" style="float:center">TRANSFER MONEY</button><br><br>
+          <input name="usr1" type="text" placeholder="Transaction From"> <br><br>
+          <input name="ac1" type="text" placeholder="Enter Account No"><br><br>
+          <input name="usr2" type="text" placeholder="Transaction To"><br><br>
+          <input name="ac2" type="text" placeholder="Enter Account No"><br><br>
+          <input name="balance" type="text" placeholder="Enter Amount"><br><br>
+          <button class="btn-primary" style="float:center;">TRANSFER</button><br><br>
+</form>
+</div>
+</div>
+</center>
+</body>
+</html>          
+           
+          
